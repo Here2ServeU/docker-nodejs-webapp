@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: t2s-nodejs-app
-          image: <ECR_URL>/beginner2master-app:latest
+          image: 730335276920.dkr.ecr.us-east-1.amazonaws.com/beginner2master-app:latest
           ports:
             - containerPort: 3000
